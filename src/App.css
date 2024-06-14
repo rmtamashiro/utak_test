@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: #fff;
+  min-height: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-control {
+  height: 38px;
+  border: 1px solid #ccc;
+}
+
+.form-control,
+.form-check-input,
+.form-select {
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 4px;
+}
+
+.form-control:focus,
+.form-check-input:focus,
+.form-select:focus {
+  border: 2px solid #0d6efd;
+}
+
+.add-btn,
+.edit-btn,
+.remove-btn,
+.close-btn,
+.add-save-btn {
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn {
+  background-color: #007bff;
+}
+
+.edit-btn {
+  background-color: #28a745;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+}
+
+.close-btn {
+  background-color: #6c757d;
+}
+
+.add-save-btn {
+  background-color: #28a745;
+}
+
+.add-btn:hover,
+.edit-btn:hover,
+.remove-btn:hover,
+.close-btn:hover,
+.add-save-btn:hover {
+  filter: brightness(90%);
+}
+
+.edit-btn,
+.remove-btn {
+  width: 100px;
+}
+
+.icon-btn {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.table-container {
+  overflow-y: auto;
+}
+
+.table-header,
+.table-body td {
+  font-size: 15px;
+  text-align: center;
+}
+
+.table-body td.category,
+.table-body td.name {
+  text-align: left;
+}
+
+.table-body td {
+  vertical-align: middle;
+}
+
+.card-header {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+.category-card {
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-title {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.category-icon {
+  font-size: 3rem;
+  color: #0056b3;
+}
+
+.item-name {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
